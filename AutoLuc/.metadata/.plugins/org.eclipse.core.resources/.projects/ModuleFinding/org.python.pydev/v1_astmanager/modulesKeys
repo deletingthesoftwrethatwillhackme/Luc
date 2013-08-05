@@ -1,0 +1,8 @@
+MODULES_MANAGER_V2
+Data.BuildGraphDistanceMetric|/home/agross/Dropbox/ModuleFinding/Data/BuildGraphDistanceMetric.py
+Data.Expression|/home/agross/Dropbox/ModuleFinding/Data/Expression.py
+Data.__init__|/home/agross/Dropbox/ModuleFinding/Data/__init__.py
+GeneModules.DrawModules|/home/agross/Dropbox/ModuleFinding/GeneModules/DrawModules.py
+GeneModules.ModuleFindingDynamicCut|/home/agross/Dropbox/ModuleFinding/GeneModules/ModuleFindingDynamicCut.py
+GeneModules.__init__|/home/agross/Dropbox/ModuleFinding/GeneModules/__init__.py
+ModuleFindingDriver|/home/agross/Dropbox/ModuleFinding/ModuleFindingDriver.py

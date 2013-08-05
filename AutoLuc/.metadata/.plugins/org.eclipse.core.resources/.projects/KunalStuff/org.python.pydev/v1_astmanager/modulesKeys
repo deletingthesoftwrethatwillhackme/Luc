@@ -1,0 +1,14 @@
+MODULES_MANAGER_V2
+BuildGraphDistanceMetric|/home/agross/Dropbox/KunalStuff/BuildGraphDistanceMetric.py
+DataDriver|/home/agross/Dropbox/KunalStuff/DataDriver.py
+DatabaseController|/home/agross/Dropbox/KunalStuff/DatabaseController.py
+DriverClean|/home/agross/Dropbox/KunalStuff/DriverClean.py
+Enrichments|/home/agross/Dropbox/KunalStuff/Enrichments.py
+Expression|/home/agross/Dropbox/KunalStuff/Expression.py
+GraphPlots|/home/agross/Dropbox/KunalStuff/GraphPlots.py
+HotNetDriverNotebook|/home/agross/Dropbox/KunalStuff/HotNetDriverNotebook.py
+HotNetDriverParamSweep|/home/agross/Dropbox/KunalStuff/HotNetDriverParamSweep.py
+Methylation|/home/agross/Dropbox/KunalStuff/Methylation.py
+ModuleFinding|/home/agross/Dropbox/KunalStuff/ModuleFinding.py
+MutationData|/home/agross/Dropbox/KunalStuff/MutationData.py
+NetworkModule|/home/agross/Dropbox/KunalStuff/NetworkModule.py

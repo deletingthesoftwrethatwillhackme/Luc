@@ -1,0 +1,11 @@
+INSTUPProcessing.RBFRegression
+/home/agross/Dropbox/LucFun/Processing/RBFRegression.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0&&2|7|2|0&&2|8|2|0
+cvPlot=8
+getModel=5
+getError=4
+crossValidation=7
+Processing.RBFRegression=2
+fitModel=3
+getParams=1
+plotFit=6

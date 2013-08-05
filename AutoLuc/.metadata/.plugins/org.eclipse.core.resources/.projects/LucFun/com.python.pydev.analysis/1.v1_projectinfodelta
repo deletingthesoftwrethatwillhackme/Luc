@@ -1,0 +1,8 @@
+INSTUPAutoLuc.PlateFilters
+/home/agross/Dropbox/LucFun/AutoLuc/PlateFilters.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0
+levelFilter=4
+AutoLuc.PlateFilters=2
+flashFilter=3
+quadrantFilter=1
+processImageSet=5

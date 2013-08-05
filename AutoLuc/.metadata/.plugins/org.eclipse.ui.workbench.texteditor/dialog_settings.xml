@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
+		<item value="312" key="DIALOG_WIDTH"/>
+		<item value="201" key="DIALOG_Y_ORIGIN"/>
+		<item value="437" key="DIALOG_HEIGHT"/>
+		<item value="469" key="DIALOG_X_ORIGIN"/>
+		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="true" key="wrap"/>
+		<item value="false" key="isRegEx"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="incremental"/>
+		<item value="false" key="wholeword"/>
+		<item value="SVR" key="selection"/>
+		<list key="findhistory">
+			<item value="SVR"/>
+			<item value="flatten"/>
+			<item value="H"/>
+			<item value="column"/>
+			<item value="numpy"/>
+			<item value="pandas"/>
+			<item value="nx"/>
+			<item value="color"/>
+		</list>
+		<list key="replacehistory">
+			<item value="np"/>
+			<item value="numpy."/>
+			<item value=""/>
+		</list>
+	</section>
+	<section name="org.eclipse.ui.texteditor.GotoLineAction$GotoLineDialog_dialogBounds">
+		<item value="385" key="DIALOG_Y_ORIGIN"/>
+		<item value="206" key="DIALOG_X_ORIGIN"/>
+	</section>
+</section>

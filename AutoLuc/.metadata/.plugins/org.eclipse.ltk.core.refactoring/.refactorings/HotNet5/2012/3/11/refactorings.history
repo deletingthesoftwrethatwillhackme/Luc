@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HotNet5/Data/MutationData.py&apos; to &apos;Mutation.py&apos;" description="Rename resource &apos;MutationData.py&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Data/MutationData.py" name="Mutation.py" stamp="1331613432163" updateReferences="true"/>
+</session>

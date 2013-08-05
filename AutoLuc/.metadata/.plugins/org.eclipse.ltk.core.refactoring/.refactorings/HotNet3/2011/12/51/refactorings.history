@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;HotNet3/ModuleFinding&apos; to &apos;GeneModules&apos;" description="Rename resource &apos;ModuleFinding&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="ModuleFinding" name="GeneModules" stamp="1323921741578" updateReferences="true"/>
+</session>

@@ -1,0 +1,11 @@
+INSTUPProcessing.Normalization
+/home/agross/Dropbox/LucFun/Processing/Normalization.py
+INFOS:&&2|1|2|0&&2|3|2|0&&2|4|2|0&&2|5|2|0&&2|6|2|0&&2|7|2|0&&2|8|2|0
+getTimePoints=5
+getNormedDays=8
+amplitudeAdjust=7
+cycle_adjust=4
+Processing.Normalization=2
+rollingMeanScale=6
+scaleMe=1
+cycle_adjust1=3

@@ -1,0 +1,6 @@
+Open other images in this ImageJ panel as follows:
+  imagej -p 1 <image1> [<image2> ... <imageN>]
+
+Macro or script not found:
+ 
+/cellar/users/agross/.imagej/macros/fail.txt
