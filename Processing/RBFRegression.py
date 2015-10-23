@@ -168,32 +168,6 @@ def plotFit(model, period, phase, normedDays, plotAxis=None, label=''):
     plotAxis.set_xbound(0,period)
     plotAxis.set_xlabel('Time Past Peak Expression', size=14)
     plotAxis.tick_params(length=6,width=2, labelsize=12)
-    
-def crossValidationOld(series, job_server=None, period=False, method='Arser', gammas=[]):
-    if len(gammas) == 0:
-        gammas = list(2**arange(-9.,-3))
-    
-    normedDays, period, phase = Normalization.getNormedDays(series, method=method, period=period)
-    normedDays = Normalization.adjustDays(normedDays, period)
-    #data = reduce(Series.append, normedDays)
-    '''Gets Unique indicies for all days'''
-    data = appendUnique(normedDays)
-    loo = LeaveOneOut(len(data))
-    cvData = []
-    for (train, test) in list(loo):
-        train = data.ix[data.index[train]]
-        test = data.ix[data.index[test]]
-        tExt, seriesExt = getParams(train, phase, period)
-        cvData.append(dict(train=train, test=test, tExt=tExt, seriesExt=seriesExt))
-        
-    fits = [fitModel(dS['tExt'],dS['seriesExt'], gammas) for dS in cvData]
-    for i, cvSet in enumerate(fits):
-            for fit in cvSet:
-                cvSet[fit]['error'] = getError(cvSet[fit]['model'], cvData[i]['test'], 
-                                      period, phase)
-        
-    fits = Panel(dict([(i, DataFrame(cvSet)) for (i, cvSet) in enumerate(fits)]))
-    return fits, normedDays, period, phase
 
 def crossValidation(series, period, phase, gammas=[]):
     if len(gammas) == 0:
